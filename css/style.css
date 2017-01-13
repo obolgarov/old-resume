@@ -1,0 +1,388 @@
+
+/*
+    Created on : Sep 3, 2014, 6:17:07 AM
+    Author     : Oleksandr Bolgarov
+*/
+
+html {
+    font-family: "Ubuntu", sans-serif;
+    color: #505d63;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fullwidth {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sitewidth {
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (min-width: 480px) {
+    .sitewidth {
+        max-width: 480px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sitewidth {
+        max-width: 768px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .sitewidth {
+        max-width: 960px;
+    }
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3a7aa6;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.blue {
+    color: #3a7aa6;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #e2e3e8;
+    border-top: 1px solid #CCD0D4;
+}
+
+.footer-content {
+    width: 100%;
+    min-height: 100px;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.footer-content p {
+    float: left;
+    width: 49%;
+    font-size: 10px;
+    padding-top: 35px;
+}
+.footer-content .social {
+    float: right;
+    width: 49%;
+    text-align: right;
+    padding-top: 25px;
+}
+.footer-content .social a {
+    display: inline-block;
+    margin: 0 8px;
+    width: 30px;
+}
+.footer-content .social a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 12px){
+
+}
+
+.right, .left {
+    float: none;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+@media screen and (min-width: 768px){
+    .right {
+        float: right;
+        width: 47%;
+    }
+    .left {
+        float: left;
+        width: 47%
+    }
+}
+
+.blue-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #3a7aa6;
+    clear: both;
+}
+
+.intro {
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: #e2e3e8;
+    border-bottom: 1px solid #CCD0D4;
+}
+.intro h1{
+    padding: 40px 0;
+}
+
+.intro .portrait {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    border-radius: 7px;
+}
+.intro h2 {
+    margin-bottom: 20px;
+}
+.intro .left p {
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px){
+    .intro .left {
+        width: 65%;
+        padding-right: 22px;
+        border-right: 1px solid #ccd0d4;
+    }
+    .intro .right {
+        width: 30%;
+        padding-top: 40px;
+    }
+
+    .intro .contact-item {
+        width: 100%;
+        display: block;
+        text-align: left;
+        margin-left: 10%;
+        padding: 8px 0;
+    }
+    .intro .contact-item p, .intro .contact-item img {
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 960px) {
+    .intro .left {
+        width: 54%;
+    }
+    .intro .right {
+        width: 41%;
+    }
+
+    .intro .contact-item {
+        width: 49%;
+        display: inline-block;
+        margin-left: 0;
+    }
+    .intro .contact-item p, .intro .contact-item img {
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.double-line {
+    height: 6px;
+    border-top: 1px solid #e5e7e8;
+    border-bottom: 1px solid #e5e7e8;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.double-line .section-title {
+    top: -10px;
+    position: relative;
+    background: #ffffff;
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+
+.skill h4 {
+    color: #ffffff;
+}
+.skill-background {
+    background-color: #E4E7EB;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skill{
+    background-color: #627076;
+}
+.skill-other {
+    background-color: #3a7aa6;
+}
+.skill-html {
+    width: 70%;
+}
+.skill-css {
+    width: 80%;
+}
+.skill-javascript {
+    width: 60%;
+}
+.skill-php {
+    width: 60%;
+}
+.skill-mysql {
+    width: 70%;
+}
+.skill-java {
+    width: 90%;
+}
+.skill-c {
+    width: 50%;
+}
+.skill-cpp {
+    width: 30%;
+}
+.skill-python {
+    width: 40%;
+}
+.skill-perl {
+    width: 40%;
+}
+.skill {
+    height: 100%;
+}
+.skill h4 {
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.skills .disclaimer {
+    font-size: 9px;
+    text-align: right;
+}
+.skills {
+    margin-bottom: 50px;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.education, .work {
+    margin-bottom: 50px;
+}
+.education-item{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.work-item {
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.education-item img {
+    float: left;
+    display: inline-block;
+    margin-right: 5px;
+}
+.education-item h3, .work-item h3 {
+    float: left;
+    padding: 5px 0;
+}
+.education-item .time, .work-item .time {
+    background-color: #E4E7EB;
+    display: inline-block;
+    float: right;
+    padding: 5px 7px;
+}
+.education-item p {
+    padding-top: 20px;
+}
+.education-item .time p, .work-item .time p {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+.education-item .time img, .work-item .time img {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.education-item .job-title, .work-item .job-title {
+    background-color: #627076;
+    padding: 4px 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    clear: both;
+    color: #ffffff;
+}
+
+.work-item ul {
+    margin: 0;
+    padding: 30px 0 0 0;
+    vertical-align: baseline;
+}
+.work-item li {
+    list-style: none;
+    background: url(http://mythemepreviews.com/cleanbusiness-html/blue/img/square.jpg) no-repeat;
+    background-position: left center;
+    padding: 8px 0 6px 25px;
+}
+
+.portfolio {
+    margin-bottom: 30px;
+}
+
+.portfolio h3 {
+    padding: 20px 0 10px 0;
+}
+
+.portfolio-item {
+    width: 23%;
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    margin: 10px 0.5%;
+}
+.portfolio-item a {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.portfolio-item img {
+    display: block;
+    width: 100%;
+    border: #627076 solid 2px;
+    border-radius: 7px;
+}
